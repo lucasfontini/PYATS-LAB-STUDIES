@@ -1,0 +1,32 @@
+testbed:
+  name: lab
+
+devices:
+
+  R1:
+    os: iosxe
+    type: router
+
+    credentials:
+      default:
+        username: admin
+        password: Cisco123!
+
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.206.150
+
+  MT1:
+    os: linux
+    type: router
+
+    credentials:
+      default:
+        username: admin
+        password: 12345
+
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.206.151

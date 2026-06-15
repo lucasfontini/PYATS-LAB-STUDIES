@@ -1,0 +1,27 @@
+!!python/object/new:genie.conf.base.utils.QDict
+dictitems:
+  interface:
+    GigabitEthernet5:
+      interface_is_ok: 'YES'
+      ip_address: 192.168.206.149
+      method: DHCP
+      protocol: up
+      status: up
+    GigabitEthernet6:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet7:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
+    GigabitEthernet8:
+      interface_is_ok: 'YES'
+      ip_address: unassigned
+      method: unset
+      protocol: down
+      status: administratively down
